@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color:#f0ebe5 !important; */
+    /* background-color:#f7f1f0 !important; */
+    background-color: #fff !important;
+}
+
+a {
+    text-decoration: none;
+    color: #ebebf2 !important;
+}
+
+a:hover {
+    color: white !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.carousel-inner h1 {
+    text-shadow: 1px 1px #333;
+}
+
+.carousel-inner .carousel-caption {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+
+.car-title {
+    color: #6a3c36;
+}
+
+.car-btn {
+    background-color: #ba8379 !important;
+}
+
+.btnbefo {
+    position: relative;
+    left: 30px;
+}
+
+.btnbefo::before {
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #ebebf2 transparent;
+    top: 20px;
+    left: 13px;
+    display: none;
+}
+
+.btnbefo::after {
+    position: absolute;
+    content: " ";
+    height: 40px;
+    width: 80px;
+    background-color: #ebebf2;
+    top: 40px;
+    left: -15px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btnbefo:active::before,
+.btn:hover::before {
+    display: block;
+
+}
+
+.btnbefo:hover::after {
+    content: "copy to clipboard";
+    display: block;
+}
+
+.btnbefo:active::after {
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+
+.fixedimg {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+}
+
+.pic1 {
+    background-image: url(../images/bg2_Mesa\ de\ trabajo\ 1-02.png);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 70%;
+    /* object-fit: cover; */
+}
+
+.pic2 {
+    background-image: url(../images/bg2_Mesa\ de\ trabajo\ 1-02.png);
+}
+
+.icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.icon5 {
+    color: #9d635a;
+}
+
+.icon9 {
+    color: #9d635a;
+}
+
+.asec9 {
+    color: #9d635a !important;
+}
+
+.itemtsec5 {
+    font-size: 30px;
+    color: #9d635a;
+    font-weight: 600;
+}
+
+.idessec5 {
+    color: #9d635a;
+}
+
+.iconf {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.acc-title {
+    font-size: 23px !important;
+    color: #9d635a !important;
+}
+
+/* .carousel-item {
+  	transition: -webkit-transform 0.5s ease;
+  	transition: transform 0.5s ease;
+  	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  	-webkit-backface-visibility: visible;
+  	backface-visibility: visible;
+} */

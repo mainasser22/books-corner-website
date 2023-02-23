@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksCorner</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="icon" href="images/book-open.png">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Permanent+Marker&family=Playfair+Display&family=Roboto+Slab:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moon+Dance&family=Permanent+Marker&family=Playfair+Display&family=Roboto+Slab:wght@200;300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-expand-lg navbar-light sticky-top p-3"
+        style="opacity:0.9; background-color: #ba8379; box-shadow: 0 9px 20px hsla(245, 86%, 49%, 0.1);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/7920730-03.png" alt="Logo" style="width:40px; margin-right:-4px;">
+            </a>
+            <a class="navbar-brand text-light" href="#"
+                style="border-right:2px solid #ccc; padding-right: 10px; font-weight: bold; margin-left:-4px;">
+                Books<span>Corner</span>
+            </a>
+            <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" target="_blank" href="">ACTION</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">ART</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">ADVENTURE</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">BEST SELLERS</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">BIOGRAPHY</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">FANTASY</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">FICTION</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">History</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">NON-FICTION</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light me-2" type="submit">Search</button>
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Login</button>
+                </form>
+                <!-- <form class="d-flex">
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Login</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="3" ></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="4" ></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/7920766.png" alt="pic1" class="d-block w-100" height="600px">
+                <div class="carousel-caption">
+                    <h3 class="car-title">A place where you can broaden your horizons and nourish your mind</h3>
+                    <a href="" class="btn car-btn" target="_blank">Get Started</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/7920730_Mesa de trabajo 1-01.png" alt="pic2" class="d-block w-100" height="600px">
+              </div>
+              <div class="carousel-item">
+                <img src="images/7915156.png" alt="pic3" class="d-block w-100" height="600px">
+                <div class="carousel-caption">
+                    <h3 class="car-title">Don't miss our offers!!</h3>
+                    <a href="" class="btn car-btn" target="_blank">Get It Now</a>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/JOIN.png" alt="pic4" class="d-block w-100" height="600px">
+                <div class="carousel-caption">
+                    <h3 class="car-title">Join Us Now!!</h3>
+                    <a href="" class="btn car-btn" target="_blank">See More</a>
+                  </div>
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </div>
+
+    <div class="card p-4 text-white "
+        style="border-top-left-radius: 0; border-top-right-radius:0 ; background-color:#fff;">
+        <div class="card-body">
+            <h2 class="card-title car-title">WELCOME TO BOOKSCORNER</h2>
+            <p class="card-text car-title" style="font-size: 18px;">A place where you find your happiness</p>
+            <a href="#" class="btn mt-4" style="background-color:#ba8379 ;">learn more</a>
+        </div>
+    </div>
+
+    <hr>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#9d635a;">Main Categories</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed btn-outline-dark acc-title" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Novels
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    A novel is a long prose narrative that usually describes fictional characters and events in the form of a sequential story.
+                    It rests on the consensus that the novel is today the longest genre of narrative prose, followed by the novella, novelette and the short story. However,
+                    there is no consensus as to the minimal required lenght. In part because of this wide variation,
+                    the boundary between a novella and a novel may be arbitrary and difficult to determine.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed btn-outline-dark acc-title" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Poetries
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    There’s something to be said about a poem that deeply moves you. With that in mind,
+                    we couldn’t think of anything better than putting together a list of poetry collections you should read in your lifetime
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed btn-outline-dark acc-title" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Magazine
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    A type of thin book with large pages and a paper cover that contains articles and photographs and is published every week or month
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#9d635a;">Novels</h1>
+    <div class="card" style="background-color: #fff;">
+        <div class="card-body">
+            <h4 class="card-title car-title">12 Novels Considered the “Greatest Book Ever Written <a href="https://www.britannica.com/list/12-novels-considered-the-greatest-book-ever-written" class="asec9" target="_blank">here</a></h4>
+            <div class="btn btn-sm car-btn .btnbefo::before .btnbefo::after btnbefo"
+                onclick="copyPaste('novel')" id="copyfun">
+                copy
+            </div>
+            <pre>
+            <code class="text-info" id="novel">
+                https://www.britannica.com/list/12-novels-considered-the-greatest-book-ever-written
+            </code>
+          </pre>
+        </div>
+    </div>
+    <hr>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#9d635a;">Poetries</h1>
+    <div class="card" style="background-color: #fff;">
+        <div class="card-body">
+            <h4 class="card-title car-title">20 Must-Read Poetry Collections <a href="https://shereads.com/must-read-poetry-collections/" class="asec9" target="_blank">here</a></h4>
+            <div class="btn btn-sm car-btn .btnbefo::before .btnbefo::after btnbefo"
+                onclick="copyPaste('poetry')" id="copyfun">
+                copy
+            </div>
+            <pre>
+            <code class="text-info" id="poetry">
+                https://shereads.com/must-read-poetry-collections/
+            </code>
+          </pre>
+        </div>
+    </div>
+    <hr>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#9d635a;">Magazines</h1>
+    <div class="card" style="background-color: #fff;">
+        <div class="card-body">
+            <h4 class="card-title car-title">10 Magazines Every Book Lover Must Subscribe To <a href="https://illogicalscript.com/magazines-every-book-lover-must-subscribe/" class="asec9" target="_blank">here</a></h4>
+            <div class="btn btn-sm car-btn .btnbefo::before .btnbefo::after btnbefo"
+                onclick="copyPaste('magazine')" id="copyfun">
+                copy
+            </div>
+            <pre>
+            <code class="text-info" id="magazine">
+                https://illogicalscript.com/magazines-every-book-lover-must-subscribe/
+            </code>
+          </pre>
+        </div>
+    </div>
+    <hr class="my-4">
+    <div class="fixedimg pic1">
+        <div class="container">
+            <!-- <div class="py-4"> -->
+            <div class="d-flex justify-content-between" style="padding-top: 130px;">
+                <div class="d-flex flex-column text-center">
+                    <i class="fas fa-laugh-beam icon icon5"></i>
+                    <h3 class="itemtsec5">854k</h3>
+                    <span class="idessec5">Satisfied clients</span>
+                </div><!---sec5item-->
+                <div class="sec5item d-flex flex-column text-center">
+                    <i class="fas fa-percent icon icon5"></i>
+                    <h3 class="itemtsec5">240k</h3>
+                    <span class="idessec5">Special offers</span>
+                </div><!---sec5item-->
+                <div class="sec5item d-flex flex-column text-center">
+                    <i class="fas fa-gift icon icon5"></i>
+                    <h3 class="itemtsec5">154k</h3>
+                    <span class="idessec5">Gift</span>
+                </div><!---sec5item-->
+                <div class="sec5item d-flex flex-column text-center">
+                    <i class="fas fa-fire-alt icon icon5"></i>
+                    <h3 class="itemtsec5">100K</h3>
+                    <span class="idessec5">Product</span>
+                </div><!---sec5item-->
+            </div>
+
+            <!-- </div> -->
+
+        </div>
+    </div>
+    <!-- <h1 class="text-center text-light p-3 m-0 " style="background-color:#48255f;">Programming language </h1> -->
+    <h2 class="text-center text-light p-4 m-0" style="background-color: #9d635a;">Good basic</h2>
+    <div class="container-fluid">
+        <div class="row justify-content-between py-4 g-0" style="background-color:#fff">
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5"
+                style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                border-radius: 7px; position: relative; height: 425px;" >
+                <img class="card-img-top" src="images/atomic.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Atomic Habits</h4>
+                    <p class="card-text">James Clear</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/so good they cant.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">So Good They Can't Ignore You</h4>
+                    <p class="card-text" >Cal Newport</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem;  background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/the four hour work.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">The 4-Hour Workweek</h4>
+                    <p class="card-text">Timothy Ferriss</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/Rule.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">The 5 Second Rule</h4>
+                    <p class="card-text">Mel Robbins</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/Rich Dad Poor Dad.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Rich Dad Poor Dad</h4>
+                    <p class="card-text">Robert T.Kiyosaki</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5"
+                style="width:18rem;  background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/No_Excuses.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">No Excuses!</h4>
+                    <p class="card-text">Brian Tracy </p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/how2.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">How to stop worrying & start living</h4>
+                    <p class="card-text">Dale Carnegie</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/hat2.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Six Thinking Hats</h4>
+                    <p class="card-text">Edward de Bono</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/the-art-of-war-other.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">The Art of War</h4>
+                    <p class="card-text">Lao-Tzu</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:18rem; background: rgba(234, 233, 233, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+                 border-radius: 7px; position: relative; height: 425px;">
+                <img class="card-img-top" src="images/TheCompoundEffect.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">The Compound Effect</h4>
+                    <p class="card-text">Darren Hardy</p>
+                    <a href="#" class="btn car-btn" style="position: absolute; right:4px; bottom: 10px;">Quick Look</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr class="my-4">
+    <div class="fixedimg pic2">
+        <div class="container text-center">
+            <div class="content"  style="padding-top: 65px;">
+                <q class="title" style="font-size: 40px; text-shadow: 0 10 px 20px hsla(247, 16%, 22%, 0.1);font-family: 'Dancing Script', cursive;">
+                    You know you have read a good book when you turn the last page and feel a little as if you have lost a friend
+                </q>
+            </div>
+            
+        </div>
+    </div>
+    <!-- <hr class="my-4"> -->
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#9d635a;">Thanks For</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-around py-4 g-0">
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:19rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <img class="card-img-top" src="images/t1.jfif" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Peter McMillan</h4>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:19rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <img class="card-img-top" src="images/t2.jfif" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Patric Goorman</h4>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width:19rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <img class="card-img-top" src="images/t3.jfif" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Mary Willson</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------sec9----------------------- -->
+    <hr class="my-4">
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#9d635a;">Join Us</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-center py-4" >
+            <div class="card m-3" style="width: 18rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <div class="card-body text-light d-flex flex-column text-center">
+                    <h6 class="card-title mb-4" style="color: #9d635a;">Subscribe Now</h6>
+                    <a href="#"><i class="fab fa-facebook icon icon9"></i></a>
+                    <a href="" target="_blank" class="card-link asec9">Go to link</a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <div class="card-body text-light d-flex flex-column text-center">
+                    <h6 class="card-title mb-4" style="color: #9d635a;">Subscribe Now</h6>
+                    <a href="#"><i class="fab fa-facebook icon icon9"></i></a>
+                    <a href="" target="_blank" class="card-link asec9">Go to link</a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <div class="card-body text-light d-flex flex-column text-center">
+                    <h6 class="card-title mb-4" style="color: #9d635a;">Subscribe Now</h6>
+                    <a href="#"><i class="fab fa-facebook icon icon9"></i></a>
+                    <a href="" target="_blank" class="card-link asec9">Go to link</a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem; background: rgba(222, 188, 188, 0.1); box-shadow: 0 10px 20px hsla(247, 16%, 22%, 0.1);
+            border-radius: 7px;">
+                <div class="card-body text-light d-flex flex-column text-center">
+                    <h6 class="card-title mb-4" style="color: #9d635a;">Subscribe Now</h6>
+                    <a href="#"><i class="fab fa-facebook icon icon9"></i></a>
+                    <a href="" target="_blank" class="card-link asec9">Go to link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------footer---------------------------------------- -->
+    <hr class="my-4">
+    <footer class="text-light p-2 pb-5" style="background-color:#9d635a;">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="border-top my-3">
+                    <h5><a href="#"><i class="fab fa-facebook iconf"></i></a> Books Corner</h5>
+                    <hr class="border-top my-3">
+                    <address>
+                        <p>Tel : 000-000-000</p>
+                        <p>Address : EGYPT</p>
+                        <p>Fax : 000-000-000</p>
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <hr class="border-top my-3">
+                    <h5><a href="#"><i class="fab fa-facebook iconf"></i></a> Books Corner</h5>
+                    <hr class="border-top my-3">
+                    <p><a href="" target="_blank" class="card-link">Go to link</a> </p>
+                    <p><a href="" target="_blank" class="card-link">Go to link</a> </p>
+                    <p><a href="" target="_blank" class="card-link">Go to link</a> </p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="border-top my-3">
+                    <h5><a href="#"><i class="fab fa-facebook iconf"></i></a> Books Corner</h5>
+                    <hr class="border-top my-3">
+                    <p>Tel : 000-000-000</p>
+                    <p>Address : EGYPT</p>
+                    <p>Fax : 000-000-000</p>
+                </div>
+            </div>
+            <hr>
+            <span class="text-center d-block text-dark">Copyright &copy; 2023 Mai Nasser Abd El-Khaleq, Books Corner.
+                All rights</span>
+            <hr>
+        </div>
+    </footer>
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
